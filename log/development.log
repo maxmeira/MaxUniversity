@@ -1,0 +1,353 @@
+[2015-07-07T13:35:27] DEBUG PID-3251 TID-12679560 Rails: 
+[2015-07-07T13:35:28] DEBUG PID-3251 TID-12679560 Rails: 
+[2015-07-07T13:35:28] INFO  PID-3251 TID-12679560 Rails: Started GET "/" for 127.0.0.1 at 2015-07-07 13:35:28 -0300
+[2015-07-07T13:35:34] INFO  PID-3251 TID-12679560 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (11403.8ms)
+  Rendered layouts/_open_graph.haml (52.3ms)
+[2015-07-07T13:37:02] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:37:02] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:37:02] INFO  PID-3393 TID-12679560 Rails: Started GET "/" for 127.0.0.1 at 2015-07-07 13:37:02 -0300
+[2015-07-07T13:37:06] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by HomeController#show as HTML
+  Rendered home/default.haml within layouts/application (240.6ms)
+  Rendered layouts/_open_graph.haml (68.1ms)
+[2015-07-07T13:38:04] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 58344ms (Views: 58083.7ms | ActiveRecord: 0.0ms)
+[2015-07-07T13:40:41] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:40:41] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:40:41] INFO  PID-3393 TID-12679560 Rails: Started GET "/login" for 127.0.0.1 at 2015-07-07 13:40:41 -0300
+[2015-07-07T13:40:41] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:40:41] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:40:41] INFO  PID-3393 TID-12679560 Rails: Started GET "/users/sign_in" for 127.0.0.1 at 2015-07-07 13:40:41 -0300
+[2015-07-07T13:40:42] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/with_header_with_footer (221.3ms)
+  Rendered shared/_links.haml (20.9ms)
+  Rendered layouts/_footer.html.haml (35.2ms)
+  Rendered layouts/_header.html.haml (54.3ms)
+  Rendered layouts/_open_graph.haml (14.1ms)
+  Rendered layouts/application.html.haml (552.7ms)
+  Rendered layouts/with_header.html.haml (624.9ms)
+[2015-07-07T13:40:43] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1425ms (Views: 956.7ms | ActiveRecord: 258.2ms)
+[2015-07-07T13:41:18] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:18] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:18] INFO  PID-3393 TID-12679560 Rails: Started GET "/users/sign_up" for 127.0.0.1 at 2015-07-07 13:41:18 -0300
+[2015-07-07T13:41:18] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by RegistrationsController#new as HTML
+  Rendered simple_captcha/_simple_captcha.haml (13.5ms)
+  Rendered registrations/_form.haml (655.8ms)
+  Rendered registrations/new.haml within layouts/with_header (691.3ms)
+  Rendered layouts/_header.html.haml (13.7ms)
+  Rendered layouts/_open_graph.haml (14.2ms)
+  Rendered layouts/application.html.haml (497.7ms)
+[2015-07-07T13:41:20] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1290ms (Views: 1172.9ms | ActiveRecord: 75.5ms)
+[2015-07-07T13:41:35] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:35] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:35] INFO  PID-3393 TID-12679560 Rails: Started GET "/simple_captcha?code=e793564e03ce13748ecac2d1c366cbd9d29a9bdd&time=1436287279" for 127.0.0.1 at 2015-07-07 13:41:35 -0300
+[2015-07-07T13:41:48] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:48] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:41:48] INFO  PID-3393 TID-12679560 Rails: Started GET "/simple_captcha?code=e793564e03ce13748ecac2d1c366cbd9d29a9bdd&time=1436287279" for 127.0.0.1 at 2015-07-07 13:41:48 -0300
+[2015-07-07T13:42:45] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:42:45] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:42:45] INFO  PID-3393 TID-12679560 Rails: Started POST "/users" for 127.0.0.1 at 2015-07-07 13:42:45 -0300
+[2015-07-07T13:42:46] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by RegistrationsController#create as HTML
+[2015-07-07T13:42:46] INFO  PID-3393 TID-12679560 ActionController::Base:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"8Bz/m3kZL6nojOTxD/yEO7h4VDY9oCvdSp9jRhcNKmmD++19xfAWL5wJtjx7IgADGjW5gs9tu2ffa3L1PtiAUA==", "user"=>{"email"=>"maxdawis@gmail.com", "username"=>"maxmeira", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "captcha"=>"67682", "captcha_key"=>"e793564e03ce13748ecac2d1c366cbd9d29a9bdd"}, "commit"=>"Sign up"}
+[2015-07-07T13:42:54] INFO  PID-3393 TID-12679560 ActionController::Base: Redirected to http://localhost:3000/getting_started
+[2015-07-07T13:42:54] INFO  PID-3393 TID-12679560 RegistrationsController: event=registration status=successful user=maxmeira@localhost:3000
+[2015-07-07T13:42:54] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 302 Found in 7975ms (ActiveRecord: 565.6ms)
+[2015-07-07T13:42:54] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:42:54] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:42:54] INFO  PID-3393 TID-12679560 Rails: Started GET "/getting_started" for 127.0.0.1 at 2015-07-07 13:42:54 -0300
+[2015-07-07T13:42:54] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#getting_started as HTML
+  Rendered photos/_new_profile_photo.haml (36.4ms)
+  Rendered users/getting_started.haml within layouts/with_header_with_footer (134.1ms)
+  Rendered shared/_links.haml (10.5ms)
+  Rendered layouts/_footer.html.haml (13.9ms)
+  Rendered layouts/_header.html.haml (0.4ms)
+  Rendered layouts/_open_graph.haml (19.1ms)
+  Rendered layouts/application.html.haml (1180.6ms)
+  Rendered layouts/with_header.html.haml (1188.9ms)
+[2015-07-07T13:42:55] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1493ms (Views: 1261.0ms | ActiveRecord: 107.4ms)
+[2015-07-07T13:44:21] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:44:21] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:44:21] INFO  PID-3393 TID-12679560 Rails: Started GET "/user/edit" for 127.0.0.1 at 2015-07-07 13:44:21 -0300
+[2015-07-07T13:44:21] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#edit as HTML
+  Rendered shared/_settings_nav.haml (21.3ms)
+  Rendered users/_close_account_modal.haml (49.9ms)
+  Rendered users/_edit.haml (394.0ms)
+  Rendered users/edit.html.haml within layouts/with_header_with_footer (408.4ms)
+  Rendered shared/_links.haml (15.6ms)
+  Rendered layouts/_footer.html.haml (18.9ms)
+  Rendered layouts/_header.html.haml (0.5ms)
+  Rendered layouts/_open_graph.haml (13.9ms)
+  Rendered layouts/application.html.haml (597.0ms)
+  Rendered layouts/with_header.html.haml (605.2ms)
+[2015-07-07T13:44:22] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1139ms (Views: 1040.5ms | ActiveRecord: 17.6ms)
+[2015-07-07T13:46:26] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:46:26] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:46:26] INFO  PID-3393 TID-12679560 Rails: Started GET "/user/edit" for 127.0.0.1 at 2015-07-07 13:46:26 -0300
+[2015-07-07T13:46:27] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#edit as HTML
+  Rendered shared/_settings_nav.haml (10.9ms)
+  Rendered users/_close_account_modal.haml (17.9ms)
+  Rendered users/_edit.haml (175.8ms)
+  Rendered users/edit.html.haml within layouts/with_header_with_footer (179.5ms)
+  Rendered shared/_links.haml (11.1ms)
+  Rendered layouts/_footer.html.haml (15.2ms)
+  Rendered layouts/_header.html.haml (0.4ms)
+  Rendered layouts/_open_graph.haml (11.5ms)
+  Rendered layouts/application.html.haml (840.8ms)
+  Rendered layouts/with_header.html.haml (849.8ms)
+[2015-07-07T13:46:28] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1095ms (Views: 1040.7ms | ActiveRecord: 28.2ms)
+[2015-07-07T13:47:56] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:47:56] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:47:56] INFO  PID-3393 TID-12679560 Rails: Started PUT "/user" for 127.0.0.1 at 2015-07-07 13:47:56 -0300
+[2015-07-07T13:47:56] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#update as HTML
+[2015-07-07T13:47:56] INFO  PID-3393 TID-12679560 ActionController::Base:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"z78O5NwwNHYroTkPbQZoJLH3AKmrtwhhVSC2QCyUGO68WBwCYNkN8F8ka8IZ2OwcE7rtHVl6mNvA1KfzBUGy1w==", "user"=>{"language"=>"pt-BR"}, "commit"=>"Change language"}
+  Rendered shared/_settings_nav.haml (18.6ms)
+  Rendered users/_close_account_modal.haml (49.3ms)
+  Rendered users/_edit.haml (346.5ms)
+  Rendered users/edit.html.haml within layouts/with_header_with_footer (356.7ms)
+  Rendered shared/_links.haml (25.9ms)
+  Rendered layouts/_footer.html.haml (38.0ms)
+  Rendered layouts/_header.html.haml (31.6ms)
+  Rendered layouts/_open_graph.haml (21.9ms)
+  Rendered layouts/application.html.haml (611.2ms)
+  Rendered layouts/with_header.html.haml (662.7ms)
+[2015-07-07T13:47:57] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1345ms (Views: 1084.5ms | ActiveRecord: 67.4ms)
+[2015-07-07T13:49:00] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:49:00] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:49:00] INFO  PID-3393 TID-12679560 Rails: Started PUT "/user" for 127.0.0.1 at 2015-07-07 13:49:00 -0300
+[2015-07-07T13:49:01] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#update as HTML
+[2015-07-07T13:49:01] INFO  PID-3393 TID-12679560 ActionController::Base:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"JhzmVYnGAdd91i1UcRantdZISPIN9eJwbzYd546COBFV+/SzNS84UQlTf5kFyCONdAWlRv84csr6wgxUp1eSKA==", "user"=>{"language"=>"en_valspeak"}, "commit"=>"Alterar Idioma"}
+  Rendered shared/_settings_nav.haml (19.2ms)
+  Rendered users/_close_account_modal.haml (59.5ms)
+  Rendered users/_edit.haml (325.9ms)
+  Rendered users/edit.html.haml within layouts/with_header_with_footer (338.8ms)
+  Rendered shared/_links.haml (49.5ms)
+  Rendered layouts/_footer.html.haml (71.2ms)
+  Rendered layouts/_header.html.haml (53.4ms)
+  Rendered layouts/_open_graph.haml (34.1ms)
+  Rendered layouts/application.html.haml (682.8ms)
+  Rendered layouts/with_header.html.haml (775.1ms)
+[2015-07-07T13:49:02] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1423ms (Views: 1214.1ms | ActiveRecord: 97.1ms)
+[2015-07-07T13:50:06] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:50:06] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:50:06] INFO  PID-3393 TID-12679560 Rails: Started PUT "/user" for 127.0.0.1 at 2015-07-07 13:50:06 -0300
+[2015-07-07T13:50:06] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#update as HTML
+[2015-07-07T13:50:06] INFO  PID-3393 TID-12679560 ActionController::Base:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sul6usF3yUUyGTqZhMSPtIlz1CjD0m2eVzNrKPN6vxs5DmhcfZ7ww0acaFTwGguMKz45nDEf/STCx3qb2q8VIg==", "user"=>{"language"=>"pt-BR"}, "commit"=>"Change what u read n speak n stuff"}
+  Rendered shared/_settings_nav.haml (7.0ms)
+  Rendered users/_close_account_modal.haml (19.9ms)
+  Rendered users/_edit.haml (162.1ms)
+  Rendered users/edit.html.haml within layouts/with_header_with_footer (167.2ms)
+  Rendered shared/_links.haml (14.6ms)
+  Rendered layouts/_footer.html.haml (19.0ms)
+  Rendered layouts/_header.html.haml (0.5ms)
+  Rendered layouts/_open_graph.haml (15.4ms)
+  Rendered layouts/application.html.haml (643.9ms)
+  Rendered layouts/with_header.html.haml (654.9ms)
+[2015-07-07T13:50:08] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 1149ms (Views: 852.7ms | ActiveRecord: 188.7ms)
+[2015-07-07T13:51:16] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:51:16] DEBUG PID-3393 TID-12679560 Rails: 
+[2015-07-07T13:51:16] INFO  PID-3393 TID-12679560 Rails: Started GET "/getting_started" for 127.0.0.1 at 2015-07-07 13:51:16 -0300
+[2015-07-07T13:51:16] INFO  PID-3393 TID-12679560 ActionController::Base: Processing by UsersController#getting_started as HTML
+  Rendered photos/_new_profile_photo.haml (45.3ms)
+  Rendered users/getting_started.haml within layouts/with_header_with_footer (96.8ms)
+  Rendered shared/_links.haml (26.3ms)
+  Rendered layouts/_footer.html.haml (30.6ms)
+  Rendered layouts/_header.html.haml (0.5ms)
+  Rendered layouts/_open_graph.haml (11.1ms)
+  Rendered layouts/application.html.haml (494.6ms)
+  Rendered layouts/with_header.html.haml (517.8ms)
+[2015-07-07T13:51:17] INFO  PID-3393 TID-12679560 ActionController::Base: Completed 200 OK in 709ms (Views: 656.2ms | ActiveRecord: 16.0ms)
+[2015-07-07T21:27:16] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:16] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:16] INFO  PID-5602 TID-18127240 Rails: Started POST "/photos?photo%5Bpending%5D=true&photo%5Baspect_ids%5D=all&photo%5Bset_profile_photo%5D=true&qqfile=tux.png" for 127.0.0.1 at 2015-07-07 21:27:16 -0300
+[2015-07-07T21:27:18] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by PhotosController#create as JSON
+[2015-07-07T21:27:18] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"photo"=>{"pending"=>"true", "aspect_ids"=>"all", "set_profile_photo"=>"true"}, "qqfile"=>"tux.png"}
+[2015-07-07T21:27:24] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 6060ms (Views: 9.7ms | ActiveRecord: 345.7ms)
+[2015-07-07T21:27:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:43] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=Ro&limit=10&_=1436287878878" for 127.0.0.1 at 2015-07-07 21:27:43 -0300
+[2015-07-07T21:27:43] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:43] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"Ro", "limit"=>"10", "_"=>"1436287878878"}
+[2015-07-07T21:27:43] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 49ms (Views: 8.1ms | ActiveRecord: 17.0ms)
+[2015-07-07T21:27:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:43] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=RoR&limit=10&_=1436287878879" for 127.0.0.1 at 2015-07-07 21:27:43 -0300
+[2015-07-07T21:27:44] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:44] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"RoR", "limit"=>"10", "_"=>"1436287878879"}
+[2015-07-07T21:27:44] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 36ms (Views: 11.1ms | ActiveRecord: 3.6ms)
+[2015-07-07T21:27:46] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:46] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:46] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23RoR&limit=10&_=1436287878880" for 127.0.0.1 at 2015-07-07 21:27:46 -0300
+[2015-07-07T21:27:46] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:46] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#RoR", "limit"=>"10", "_"=>"1436287878880"}
+[2015-07-07T21:27:46] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 23ms (Views: 6.3ms | ActiveRecord: 3.7ms)
+[2015-07-07T21:27:48] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:48] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:48] INFO  PID-5602 TID-18127240 Rails: Started POST "/tag_followings" for 127.0.0.1 at 2015-07-07 21:27:48 -0300
+[2015-07-07T21:27:48] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagFollowingsController#create as JSON
+[2015-07-07T21:27:48] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"name"=>"RoR", "tag_following"=>{}}
+[2015-07-07T21:27:48] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 201 Created in 243ms (Views: 9.0ms | ActiveRecord: 113.6ms)
+[2015-07-07T21:27:58] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:58] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:58] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23dE&limit=10&_=1436287878881" for 127.0.0.1 at 2015-07-07 21:27:58 -0300
+[2015-07-07T21:27:58] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:58] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#dE", "limit"=>"10", "_"=>"1436287878881"}
+[2015-07-07T21:27:58] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 28ms (Views: 7.3ms | ActiveRecord: 3.5ms)
+[2015-07-07T21:27:59] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:59] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23D&limit=10&_=1436287878882" for 127.0.0.1 at 2015-07-07 21:27:59 -0300
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#D", "limit"=>"10", "_"=>"1436287878882"}
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 27ms (Views: 7.2ms | ActiveRecord: 3.4ms)
+[2015-07-07T21:27:59] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:59] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23De&limit=10&_=1436287878883" for 127.0.0.1 at 2015-07-07 21:27:59 -0300
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#De", "limit"=>"10", "_"=>"1436287878883"}
+[2015-07-07T21:27:59] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 26ms (Views: 7.0ms | ActiveRecord: 3.4ms)
+[2015-07-07T21:28:00] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:00] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:00] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23D&limit=10&_=1436287878884" for 127.0.0.1 at 2015-07-07 21:28:00 -0300
+[2015-07-07T21:28:01] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:01] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#D", "limit"=>"10", "_"=>"1436287878884"}
+[2015-07-07T21:28:01] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 53ms (Views: 10.7ms | ActiveRecord: 9.0ms)
+[2015-07-07T21:28:02] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:02] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:02] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23L&limit=10&_=1436287878885" for 127.0.0.1 at 2015-07-07 21:28:02 -0300
+[2015-07-07T21:28:02] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:02] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#L", "limit"=>"10", "_"=>"1436287878885"}
+[2015-07-07T21:28:02] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 31ms (Views: 7.2ms | ActiveRecord: 3.5ms)
+[2015-07-07T21:28:03] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:03] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:03] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Li&limit=10&_=1436287878886" for 127.0.0.1 at 2015-07-07 21:28:03 -0300
+[2015-07-07T21:28:03] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:03] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Li", "limit"=>"10", "_"=>"1436287878886"}
+[2015-07-07T21:28:03] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 29ms (Views: 10.9ms | ActiveRecord: 3.5ms)
+[2015-07-07T21:28:04] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:04] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:04] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Lin&limit=10&_=1436287878887" for 127.0.0.1 at 2015-07-07 21:28:04 -0300
+[2015-07-07T21:28:04] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:04] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Lin", "limit"=>"10", "_"=>"1436287878887"}
+[2015-07-07T21:28:04] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 45ms (Views: 9.1ms | ActiveRecord: 4.2ms)
+[2015-07-07T21:28:05] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:05] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Linu&limit=10&_=1436287878888" for 127.0.0.1 at 2015-07-07 21:28:05 -0300
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Linu", "limit"=>"10", "_"=>"1436287878888"}
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 63ms (Views: 11.2ms | ActiveRecord: 33.8ms)
+[2015-07-07T21:28:05] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:05] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Linux&limit=10&_=1436287878889" for 127.0.0.1 at 2015-07-07 21:28:05 -0300
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Linux", "limit"=>"10", "_"=>"1436287878889"}
+[2015-07-07T21:28:05] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 33ms (Views: 11.6ms | ActiveRecord: 3.2ms)
+[2015-07-07T21:28:07] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:07] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:07] INFO  PID-5602 TID-18127240 Rails: Started POST "/tag_followings" for 127.0.0.1 at 2015-07-07 21:28:07 -0300
+[2015-07-07T21:28:07] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagFollowingsController#create as JSON
+[2015-07-07T21:28:07] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"name"=>"Linux", "tag_following"=>{}}
+[2015-07-07T21:28:08] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 201 Created in 131ms (Views: 11.5ms | ActiveRecord: 63.9ms)
+[2015-07-07T21:28:17] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:17] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23O&limit=10&_=1436287878890" for 127.0.0.1 at 2015-07-07 21:28:17 -0300
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#O", "limit"=>"10", "_"=>"1436287878890"}
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 47ms (Views: 8.0ms | ActiveRecord: 7.1ms)
+[2015-07-07T21:28:17] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:17] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Op&limit=10&_=1436287878891" for 127.0.0.1 at 2015-07-07 21:28:17 -0300
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Op", "limit"=>"10", "_"=>"1436287878891"}
+[2015-07-07T21:28:17] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 27ms (Views: 7.3ms | ActiveRecord: 3.5ms)
+[2015-07-07T21:28:19] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:19] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:19] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23Open&limit=10&_=1436287878892" for 127.0.0.1 at 2015-07-07 21:28:19 -0300
+[2015-07-07T21:28:19] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:19] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#Open", "limit"=>"10", "_"=>"1436287878892"}
+[2015-07-07T21:28:19] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 33ms (Views: 11.0ms | ActiveRecord: 3.2ms)
+[2015-07-07T21:28:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:20] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23OpenSo&limit=10&_=1436287878893" for 127.0.0.1 at 2015-07-07 21:28:20 -0300
+[2015-07-07T21:28:20] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:20] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#OpenSo", "limit"=>"10", "_"=>"1436287878893"}
+[2015-07-07T21:28:20] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 35ms (Views: 7.6ms | ActiveRecord: 3.3ms)
+[2015-07-07T21:28:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:20] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23OpenSou&limit=10&_=1436287878894" for 127.0.0.1 at 2015-07-07 21:28:20 -0300
+[2015-07-07T21:28:21] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:21] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#OpenSou", "limit"=>"10", "_"=>"1436287878894"}
+[2015-07-07T21:28:21] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 50ms (Views: 14.8ms | ActiveRecord: 3.5ms)
+[2015-07-07T21:28:22] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:22] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:22] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23OpenSour&limit=10&_=1436287878895" for 127.0.0.1 at 2015-07-07 21:28:22 -0300
+[2015-07-07T21:28:23] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:23] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#OpenSour", "limit"=>"10", "_"=>"1436287878895"}
+[2015-07-07T21:28:23] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 30ms (Views: 7.5ms | ActiveRecord: 3.4ms)
+[2015-07-07T21:28:23] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:23] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:23] INFO  PID-5602 TID-18127240 Rails: Started GET "/tags?q=%23OpenSource&limit=10&_=1436287878896" for 127.0.0.1 at 2015-07-07 21:28:23 -0300
+[2015-07-07T21:28:24] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagsController#index as JSON
+[2015-07-07T21:28:24] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"q"=>"#OpenSource", "limit"=>"10", "_"=>"1436287878896"}
+[2015-07-07T21:28:24] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 55ms (Views: 12.6ms | ActiveRecord: 23.4ms)
+[2015-07-07T21:28:25] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:25] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:25] INFO  PID-5602 TID-18127240 Rails: Started POST "/tag_followings" for 127.0.0.1 at 2015-07-07 21:28:25 -0300
+[2015-07-07T21:28:25] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by TagFollowingsController#create as JSON
+[2015-07-07T21:28:25] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"name"=>"OpenSource", "tag_following"=>{}}
+[2015-07-07T21:28:26] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 201 Created in 258ms (Views: 8.5ms | ActiveRecord: 190.3ms)
+[2015-07-07T21:28:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:43] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:28:43] INFO  PID-5602 TID-18127240 Rails: Started GET "/stream" for 127.0.0.1 at 2015-07-07 21:28:43 -0300
+[2015-07-07T21:28:43] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by StreamsController#multi as HTML
+  Rendered aspects/_aspect_listings.haml (18.0ms)
+  Rendered tags/_followed_tags_listings.haml (6.3ms)
+  Rendered publisher/_aspect_dropdown.html.haml (47.2ms)
+  Rendered shared/_public_explain.haml (39.5ms)
+  Rendered publisher/_publisher.html.haml (774.5ms)
+  Rendered aspects/_no_posts_message.haml (10.6ms)
+  Rendered aspects/_no_contacts_message.haml (13.7ms)
+  Rendered aspects/_aspect_stream.haml (902.5ms)
+  Rendered shared/_modal.haml (23.2ms)
+  Rendered shared/_invitations.haml (222.1ms)
+  Rendered shared/_links.haml (20.4ms)
+  Rendered shared/_right_sections.html.haml (2586.8ms)
+  Rendered streams/main_stream.html.haml within layouts/with_header (3866.7ms)
+  Rendered layouts/_header.html.haml (31.8ms)
+  Rendered layouts/_open_graph.haml (41.7ms)
+  Rendered layouts/application.html.haml (10357.7ms)
+[2015-07-07T21:28:58] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 14715ms (Views: 14433.4ms | ActiveRecord: 141.2ms)
+[2015-07-07T21:29:37] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:29:37] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:29:37] INFO  PID-5602 TID-18127240 Rails: Started GET "/stream?_=1436315340786" for 127.0.0.1 at 2015-07-07 21:29:37 -0300
+[2015-07-07T21:29:37] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by StreamsController#multi as JSON
+[2015-07-07T21:29:37] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"_"=>"1436315340786"}
+[2015-07-07T21:29:37] DEBUG PID-5602 TID-18127240 EvilQuery::MultiStream: [EVIL-QUERY] make_relation!
+[2015-07-07T21:29:37] DEBUG PID-5602 TID-18127240 EvilQuery::MultiStream: [EVIL-QUERY] aspect_post_ids!
+[2015-07-07T21:29:37] DEBUG PID-5602 TID-18127240 User: [EVIL-QUERY] user.construct_public_followings_sql
+[2015-07-07T21:29:38] DEBUG PID-5602 TID-18127240 EvilQuery::MultiStream: [EVIL-QUERY] followed_tags_posts!
+[2015-07-07T21:29:38] DEBUG PID-5602 TID-18127240 EvilQuery::MultiStream: [EVIL-QUERY] mentioned_posts
+[2015-07-07T21:29:38] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 879ms (Views: 3.1ms | ActiveRecord: 197.6ms)
+[2015-07-07T21:30:09] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:30:09] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:30:09] INFO  PID-5602 TID-18127240 Rails: Started GET "/contacts?_=1436315340787" for 127.0.0.1 at 2015-07-07 21:30:09 -0300
+[2015-07-07T21:30:09] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by ContactsController#index as JSON
+[2015-07-07T21:30:09] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"_"=>"1436315340787"}
+[2015-07-07T21:30:09] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 140ms (Views: 15.2ms | ActiveRecord: 32.6ms)
+[2015-07-07T21:31:11] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:31:11] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:31:11] INFO  PID-5602 TID-18127240 Rails: Started POST "/photos?photo%5Bpending%5D=true&qqfile=ruby-on-rails_main.jpg" for 127.0.0.1 at 2015-07-07 21:31:11 -0300
+[2015-07-07T21:31:11] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by PhotosController#create as JSON
+[2015-07-07T21:31:11] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"photo"=>{"pending"=>"true"}, "qqfile"=>"ruby-on-rails_main.jpg"}
+[2015-07-07T21:31:16] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 200 OK in 4622ms (Views: 12.4ms | ActiveRecord: 170.3ms)
+[2015-07-07T21:31:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:31:20] DEBUG PID-5602 TID-18127240 Rails: 
+[2015-07-07T21:31:20] INFO  PID-5602 TID-18127240 Rails: Started POST "/status_messages" for 127.0.0.1 at 2015-07-07 21:31:20 -0300
+[2015-07-07T21:31:22] INFO  PID-5602 TID-18127240 ActionController::Base: Processing by StatusMessagesController#create as JSON
+[2015-07-07T21:31:22] INFO  PID-5602 TID-18127240 ActionController::Base:   Parameters: {"status_message"=>"[FILTERED]", "aspect_ids"=>"public", "photos"=>"2", "location_address"=>"Rua São Sebastião, Bairro Santo Antonio, Livramento de Nossa Senhora, Microrregião de Livramento do Brumado, Mesorregião do Centro-Sul Baiano, Bahia, Northeast Region, 46140000, Brazil", "location_coords"=>"-13.6322557,-41.8352267", "poll_question"=>"", "poll_answers"=>["", ""]}
+[2015-07-07T21:31:23] INFO  PID-5602 TID-18127240 User: user:1 dispatching StatusMessage:952035a007360133c4b33085a9f593ea
+[2015-07-07T21:31:24] DEBUG PID-5602 TID-18127240 Postzord::Dispatcher::Public: event=post_to_service type=pubsub sender_handle=maxmeira@localhost:3000
+[2015-07-07T21:31:26] INFO  PID-5602 TID-18127240 StatusMessage: dispatch photos for StatusMessage:952035a007360133c4b33085a9f593ea
+[2015-07-07T21:31:27] INFO  PID-5602 TID-18127240 User: user:1 dispatching Photo:8e9ad87007360133c4b33085a9f593ea
+[2015-07-07T21:31:27] DEBUG PID-5602 TID-18127240 Postzord::Dispatcher::Public: event=post_to_service type=pubsub sender_handle=maxmeira@localhost:3000
+[2015-07-07T21:31:30] INFO  PID-5602 TID-18127240 Participation: event=sign_with_key status=complete guid=99d0aba007360133c4b33085a9f593ea
+[2015-07-07T21:31:30] INFO  PID-5602 TID-18127240 Participation: event=sign_with_key status=complete guid=99d0aba007360133c4b33085a9f593ea
+[2015-07-07T21:31:30] INFO  PID-5602 TID-18127240 Participation::Generator: user:1 dispatching Participation:99d0aba007360133c4b33085a9f593ea
+[2015-07-07T21:31:31] INFO  PID-5602 TID-18127240 ActionController::Base: Completed 201 Created in 8996ms (Views: 280.1ms | ActiveRecord: 1292.1ms)
